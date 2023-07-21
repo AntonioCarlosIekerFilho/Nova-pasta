@@ -1,6 +1,8 @@
 /*PARA IMPORTAR ULTILIZE @IMPORT*/
+/*Importada a font sans pro do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400&display=swap');
 @import url(./header.css);
-
+@import url(./buttons.css);
 
 /*CÓDIGO PARA RESETAR O CSS*/
 *{
@@ -10,4 +12,6 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;/*tira a linha de baixo do a href*/
+    font-family: 'Source Sans 3', sans-serif; /*copiado do google font*/
 }
