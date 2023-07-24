@@ -15,3 +15,14 @@
     text-decoration: none;/*tira a linha de baixo do a href*/
     font-family: 'Source Sans 3', sans-serif; /*copiado do google font*/
 }
+.container{
+    width: 1024px; /*largura da pagina*/
+    margin: 30px auto;/*0 de altura parte de cima e de baixo e lados automaticos*/
+    display: flex;
+    flex-direction: column;
+
+}
+.row{
+   display: flex;
+   flex-direction: row; 
+}
