@@ -4,6 +4,7 @@
 @import url(./header.css);
 @import url(./buttons.css);
 @import url(main.css);
+@import url(footer.css);
 
 /*CÓDIGO PARA RESETAR O CSS*/
 *{
@@ -16,6 +17,12 @@
     text-decoration: none;/*tira a linha de baixo do a href*/
     font-family: 'Source Sans 3', sans-serif; /*copiado do google font*/
     font-weight: 300px;
+    list-style: none;/* para retirar todos os pontos antes de ul li*/
+}
+body{
+    background-image: url(../imagens/bolha-background.png );
+    background-repeat: no-repeat;
+    background-position: left center;
     
 }
 .container{
