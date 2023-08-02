@@ -31,7 +31,7 @@
 @media (max-width:1100px){
     body{
         /* back ground positio x em forma negativa manda o background para trás*/
-        background-position-x: -100px !important; /*esse comando important informa que essa configuração
+        background-position-x: -100px /*!important*/; /*esse comando important informa que essa configuração
         é mais importante que a que está sendo herdada do style.css*/
     }
 }
